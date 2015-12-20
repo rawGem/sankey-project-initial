@@ -1,0 +1,7 @@
+Time,Order,Viscosity,Path ID,Origin,Destination,Segment name,Segment rank,Product volume,Solvent
+1,11,13,561,RU,CO,AG - BD 42,4,24193.1,0
+1,11,13,561,RU,CO,AY - CO 24 OCC,6,24193.1,0
+1,11,13,561,RU,CO,BD - AY 24 OCC,5,24193.1,0
+1,11,13,561,RU,CO,EV - MR 24,2,24193.1,0
+1,11,13,561,RU,CO,MR - AG 12_14,3,24193.1,0
+1,11,13,561,RU,CO,RU - EV 24,1,24193.1,0

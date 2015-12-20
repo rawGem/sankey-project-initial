@@ -1,0 +1,6 @@
+Time,Order,Viscosity,Path ID,Origin,Destination,Segment name,Segment rank,Product volume,Solvent
+1,11,13,558,RU,CO,CU - PV 30  I,3,69927.3,0
+1,11,13,558,RU,CO,EV - CU 24,2,69927.3,0
+1,11,13,558,RU,CO,PV - VC 30_36  II,4,69927.3,0
+1,11,13,558,RU,CO,RU - EV 24,1,69927.3,0
+1,11,13,558,RU,CO,VC - CO 30  III,5,69927.3,0
