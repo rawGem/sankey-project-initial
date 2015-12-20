@@ -7,6 +7,7 @@ d3.csv("route561.csv", function(err, data) {
   }
 })
 
+
 d3.csv("order11_data.csv", function(err, data) {
   if (!err) {
       
@@ -43,7 +44,7 @@ var formatNumber = d3.format(",.0f"),    // zero decimal places
 
   var sankey = d3.sankey()
       .nodeWidth(36)
-      .nodePadding(40)
+      .nodePadding(20)
       .size([canvas.width, canvas.height-2*canvas.margin])
       .nodes(routeNodes)
       .links(routeLinks)

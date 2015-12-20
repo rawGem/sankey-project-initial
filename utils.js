@@ -57,13 +57,15 @@ parseUtils.routesSortedBySegmentRank = function(rows) {
 parseUtils.sankeyLinksFromRoutes = function(data) {
   var links = [],
       nodes = [];
-  // links -> {source: , target: , value: }
 
   links = Object.keys(data).map(
   function(el, i, a) {
+    var value;
+    value = parseFloat(data[el][0]["Product volume"]);
+    
     return {source : i, 
             target : 10, 
-            value  : parseFloat(data[el][0]["Product volume"])}   
+            value  : value }   
   })
 
   return links;
