@@ -77,7 +77,7 @@ parseUtils.sankeyNodesFromRoutes = function(data) {
             name : "RU-"+el};
   })
 
-  nodes.push({node : 999, name: "Destination"});
+  nodes.push({node : 999, name: "CO"});
 
   return nodes;
 }
